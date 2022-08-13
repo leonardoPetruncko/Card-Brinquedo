@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2eee3;
+}
+
+.produto-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background-color: #fafafa;
+}
+
+.etiqueta {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: red;
+    color: #fafafa;
+    padding: 3px 10px;
+}
+
+.produto-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.produto-imagem img {
+    max-width: 120%;
+    max-height: 120%;
+}
+
+.produtos-detalhes {
+    padding: 30px;
+}
+
+.produto-categoria {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(134, 134, 134);
+    margin-bottom: 18px;
+}
+
+.produtos-detalhes h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.produtos-detalhes h4 a:hover {
+    color: red;
+}
+
+.produtos-detalhes p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.produto-botoes-detalhes {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.produto-botoes-detalhes div {
+    float: left;
+    width: 50%;
+}
