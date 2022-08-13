@@ -81,11 +81,41 @@ body {
 
 .produto-botoes-detalhes {
     overflow: hidden;
-    border-top: 1px solid #eee;
+    border-top: 1px solid rgb(113, 109, 109);
     padding-top: 20px;
 }
 
 .produto-botoes-detalhes div {
     float: left;
     width: 50%;
+}
+
+.produto-preco {
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+}
+
+.produto-preco small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.produtos-links {
+    text-align: right;
+}
+
+.produtos-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.produtos-links a:hover {
+    color: red;
 }
